@@ -357,3 +357,29 @@ nav {
 	border-radius: 5px;
 	margin-left: 212px;
 }
+
+.user-menu{
+	margin-top: 165px;
+	list-style: none;
+}
+
+.user-menu-item{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 54px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.selected::after{
+	content: "";
+	position: absolute;
+	width: 120%;
+	top: 40px;
+	left: -12%;
+	border: 3px solid #442a9d;
+	border-radius: 3px;
+}
