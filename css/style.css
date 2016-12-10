@@ -361,6 +361,7 @@ nav {
 .user-menu{
 	margin-top: 165px;
 	list-style: none;
+	border: 1px solid yellow;
 }
 
 .user-menu-item{
@@ -374,6 +375,10 @@ nav {
 	position: relative;
 }
 
+.user-menu-item a{
+    color: black;
+}
+
 .selected::after{
 	content: "";
 	position: absolute;
@@ -381,5 +386,6 @@ nav {
 	top: 40px;
 	left: -12%;
 	border: 3px solid #442a9d;
-	border-radius: 3px;
+	border-radius: 8px;
 }
+
