@@ -361,7 +361,6 @@ nav {
 .user-menu{
 	margin-top: 165px;
 	list-style: none;
-	border: 1px solid yellow;
 }
 
 .user-menu-item{
@@ -371,7 +370,7 @@ nav {
 	font-size: 14px;
 	line-height: 30px;
 	font-weight: bold;
-	padding-bottom: 15px;
+	padding-bottom: 0px;
 	position: relative;
 }
 
@@ -389,3 +388,150 @@ nav {
 	border-radius: 8px;
 }
 
+.user-overview{
+	display: flex;
+	
+	background-color: #ededed;
+	padding-top: 52px;
+	
+}
+
+.figure-1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.figure-pic{ 
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+.figure-pic h2{
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.happiness-pic{
+	background: white url('../media/pics/happy.png') no-repeat 146px 64px;
+	margin-right: 32px;
+}
+
+.happiness-pic h2{
+	color: #4f4f4f;
+	margin-left: 112px;
+	margin-right: 112px;
+	margin-bottom: 160px;
+}
+
+.happiness-pic h3{
+	color: #4f4f4f;
+	font-size: 15px;
+	margin-left: 117px;
+}
+.bar-container{
+	display: flex;
+	margin-left: 35px;
+	margin-bottom: 22px;
+}
+
+.happiness-pic .awesome-bar{
+	position: relative;
+	width: 295px;
+	height: 10px;
+	background-color: #ededed;
+	border-radius: 3px;
+	
+}
+
+.awesome-progress{
+	position: absolute;
+	height: 10px;
+	background-color: #ffc12d;
+	border-radius: 3px;
+}
+
+.awesome-value{
+	font-size: 14px;
+	color: #4f4f4f;
+	line-height: 34px;
+	margin-top: -11px;
+	margin-left: 15px;
+}
+
+
+
+.total-pic h2{
+	color: #4f4f4f;
+	margin-left: 128px;
+	margin-right: 128px;
+}
+
+.total-pic{
+	background: white url('../media/pics/graph-1.png') no-repeat -8px 10px;
+	
+}
+
+.total-value{
+	font-size: 44px;
+	font-weight: bold;
+	color: #4f4f4f;
+	margin-left: 131px;
+	margin-top: 45px;
+}
+
+.figure-container-2{
+	border: 1px solid blue;
+	margin-left: 32px;
+}
+
+.figure-1{
+	margin: 0;
+	margin-left: 32px;
+}
+
+.figure-2{
+	margin: 0;
+	
+}
+
+.figure-2 h2{
+	font-size: 17px;
+}
+
+.orders-total, .orders-progress{
+	display: flex;
+	width: 408px;
+	padding: 0;
+	
+}
+
+.background-container{
+	width: 140px;
+}
+.orders-total .background-container{
+	background: #ffc12d url('../media/pics/cube-in.png') no-repeat ;
+}
+
+.orders-progress .background-container{
+	background: #442a9d url('../media/pics/orders.png') no-repeat;
+}
+
+.figure-2 .figure-value{
+	margin-left: 112px;
+	
+	font-size: 37px;
+	font-weight: bold;
+	margin-bottom: 33px;
+}
+
+.figure-2 .orders-total h2{
+	margin-left: 70px;
+	color: #ffc12d;
+	margin-top: 33px;
+}
+
+.figure-2 .orders-progress h2{
+	margin-left: 40px;
+	color: #442a9d;
+	margin-top: 33px;
