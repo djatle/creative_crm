@@ -335,9 +335,8 @@ nav {
 	width: 120%;
 	border-bottom: 2px solid #999999;
 	top: 0px;
-	left: 0px;;
-	
-	
+	left: 0px;
+		
 }
 
 .user-data span{
@@ -481,7 +480,6 @@ nav {
 }
 
 .figure-container-2{
-	border: 1px solid blue;
 	margin-left: 32px;
 }
 
@@ -497,24 +495,28 @@ nav {
 
 .figure-2 h2{
 	font-size: 17px;
+	margin-top: 30px;
 }
 
 .orders-total, .orders-progress{
 	display: flex;
 	width: 408px;
 	padding: 0;
+	margin-bottom: 32px;
+	border-radius: 5px;
 	
 }
 
 .background-container{
 	width: 140px;
+	border-radius: 5px;
 }
 .orders-total .background-container{
-	background: #ffc12d url('../media/pics/cube-in.png') no-repeat ;
+	background: #ffc12d url('../media/pics/cube-in.png') no-repeat 50px 40px;
 }
 
 .orders-progress .background-container{
-	background: #442a9d url('../media/pics/orders.png') no-repeat;
+	background: #442a9d url('../media/pics/orders.png') no-repeat 55px 45px;
 }
 
 .figure-2 .figure-value{
@@ -522,16 +524,51 @@ nav {
 	
 	font-size: 37px;
 	font-weight: bold;
-	margin-bottom: 33px;
+	margin-bottom: 18px;
 }
 
 .figure-2 .orders-total h2{
 	margin-left: 70px;
 	color: #ffc12d;
-	margin-top: 33px;
+	
+	
 }
 
 .figure-2 .orders-progress h2{
 	margin-left: 40px;
 	color: #442a9d;
-	margin-top: 33px;
+}
+
+.user-stats{
+	display: flex;
+	justify-content: space-between;
+	width: 1286px;
+	margin-left: 32px;
+	margin-right: 32px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.stats{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 425px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	font-size: 17px;
+	color: #4f4f4f;
+}
+
+.stat-data{
+	font-size: 37px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.stats:nth-child(2){
+	width: 435px;
+	border-right: 2px solid #ededed;
+	border-left: 2px solid #ededed;
+}
+
